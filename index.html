@@ -1,61 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Social proof section</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
-  <body>
-    10,000+ of our users love our products.
+  <title>Frontend Mentor | Social proof section</title>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+</head>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">HagureShinma (Oscar E. Rodríguez Díaz)</a>.
+<body>
+  <main>
+
+    <div class="catcher">
+
+      <h1>10,000+ of our users love our products.</h1>
+      <p>
+        We only provide great products combined with excellent customer service.
+        See what our satisfied customers are saying about our services.
+      </p>
+
     </div>
-  </body>
+
+    <div class="ratings-container">
+
+      <div class="rating">
+        <div class="rating-stars">
+          <img src="images/icon-star.svg" alt="stars">
+          <img src="images/icon-star.svg">
+          <img src="images/icon-star.svg">
+          <img src="images/icon-star.svg">
+          <img src="images/icon-star.svg">
+        </div>
+        <p>
+          Rated 5 Stars in Reviews
+        </p>
+      </div>
+
+      <div class="rating">
+        <div class="rating-stars">
+          <img src="images/icon-star.svg" alt="stars">
+          <img src="images/icon-star.svg">
+          <img src="images/icon-star.svg">
+          <img src="images/icon-star.svg">
+          <img src="images/icon-star.svg">
+        </div>
+        <p>
+          Rated 5 Stars in Report Guru
+        </p>
+      </div>
+
+      <div class="rating">
+        <div class="rating-stars">
+          <img src="images/icon-star.svg" alt="stars">
+          <img src="images/icon-star.svg">
+          <img src="images/icon-star.svg">
+          <img src="images/icon-star.svg">
+          <img src="images/icon-star.svg">
+        </div>
+        <p>
+          Rated 5 Stars in BestTech
+        </p>
+      </div>
+
+    </div>
+
+    <div class="reviews-container">
+
+      <div class="review">
+        <div class="identifier">
+          <img src="images/image-colton.jpg" alt="user avatar">
+          <h5 class="name">Colton Smith</h5>
+          <h6 class="prestige">Verified Buyer</h6>
+        </div>
+        <p class="review-content">
+          "We needed the same printed design as the one we had ordered a week prior.
+          Not only did they find the original order, but we also received it in time.
+          Excellent!"
+        </p>
+      </div>
+
+      <div class="review">
+        <div class="identifier">
+          <img src="images/image-irene.jpg" alt="user avatar">
+          <h5 class="name">Irene Roberts</h5>
+          <h6 class="prestige">Verified Buyer</h6>
+        </div>
+        <p class="review-content">
+          "Customer service is always excellent and very quick turn around. Completely
+          delighted with the simplicity of the purchase and the speed of delivery."
+        </p>
+      </div>
+
+      <div class="review">
+        <div class="identifier">
+          <img src="images/image-anne.jpg" alt="user avatar">
+          <h5 class="name">Anne Wallace</h5>
+          <h6 class="prestige">Verified Buyer</h6>
+        </div>
+        <p class="review-content">
+          "Put an order with this company and can only praise them for the very high
+          standard. Will definitely use them again and recommend them to everyone!"
+        </p>
+      </div>
+
+    </div>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+      href="#">HagureShinma (Oscar E. Rodríguez Díaz)</a>.
+  </div>
+</body>
+
 </html>
