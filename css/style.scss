@@ -15,9 +15,15 @@ body{
     font-size: 15px;
 }
 
-main{
+.flex-container{
+    // display: flex;
     width: 100%;
     height: 100vh;
+    padding: 5.4em 1.6em;
+}
+
+section{
+    margin-bottom: 3em;
 }
 
 .attribution{
@@ -25,9 +31,35 @@ main{
     width: 100%;
     font-size: 11px;
     text-align: center;
-    bottom: 1em;
+    top: 1em;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.rating{
+    width: 328px;
+    height: 80px;
+    text-align: center;
+}
+
+.review{
+    padding: 2.53em 2.2em;
+    .identifier{
+        display: flex;
+        align-items: center;
+        .avatar{
+            // display: inline;
+            border-radius: 50%;
+            width: 42px;
+            height: auto;
+        }
+        .user-info{
+            margin-left: 1.53em;
+        }
+    }
+    .review-content{
+        margin-top: 2em;
+    }
 }
