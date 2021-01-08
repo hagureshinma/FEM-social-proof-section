@@ -233,6 +233,9 @@ section {
             justify-content: space-between;
     padding-top: 8.6em;
   }
+  section {
+    margin-bottom: 5em;
+  }
   .catcher {
     text-align: left;
   }
