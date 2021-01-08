@@ -231,7 +231,7 @@ section {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-top: 8.6em;
+    padding: 8.6em 0;
   }
   section {
     margin-bottom: 5em;
